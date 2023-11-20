@@ -75,7 +75,7 @@ volumeSlider.addEventListener("input", function() {
 
 //Style the page
 document.querySelector("#vintage").addEventListener("click", function() {
-	video.classList.toggle("oldSchool");
+	video.classList.add("oldSchool");
 	console.log(`Video classList: ${video.classList}`);
 });
 
